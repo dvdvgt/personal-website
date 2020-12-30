@@ -1,6 +1,6 @@
 baseURL = "dvdvgt.github.io"
 languageCode = "en-us"
-title = "> My Stuff"
+title = "> echo 'David's Stuff' ▁"
 
 theme = "hugo-coder"
 
@@ -12,14 +12,14 @@ pygmentscodefencesguesssyntax = true
 
 [params]
   author = "David Voigt"
-  info = "Computer Science Student"
+  info = "B.Sc. Computer Science Student"
   description = "My personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "https://yt3.ggpht.com/-7zFDHK5X45w/AAAAAAAAAAI/AAAAAAAAAAA/QJfHeLTEZwE/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+  avatarurl = "/images/man.svg"
   #gravatar = "john.doe@example.com"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon_32 = "/images/terminal32x32.png"
+  favicon_16 = "/images/terminal16x16.png"
 
   #footercontent = "Enter a text here."
   hideFooter = false
@@ -59,6 +59,7 @@ pygmentscodefencesguesssyntax = true
   series = "series"
   tag = "tags"
   author = "authors"
+  lang = "lang"
 
 # Social links
 [[params.social]]

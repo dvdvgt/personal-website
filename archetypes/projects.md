@@ -5,8 +5,6 @@ title = "{{ replace .Name "-" " " | title }}"
 description = ""
 authors = []
 tags = []
-categories = []
+Lang = ""
 externalLink = ""
-featuredImage = ""
 +++
-

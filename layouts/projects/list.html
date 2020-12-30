@@ -1,0 +1,24 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <h1 class="title"> {{ title (i18n (lower .Title)) | default .Title }} </h1>
+    {{ .Content }}
+    <ul>
+        {{ range .Paginator.Pages }}
+        <li>
+            <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">
+              {{ .Title }}
+            </a>
+            <span>
+              {{ with .Params.Lang }}{{ partial "taxonomy/lang.html" . }}{{ end }}
+              <!--{{ with .Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }} -->
+            </span>
+        </li>
+        {{ end }}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}
