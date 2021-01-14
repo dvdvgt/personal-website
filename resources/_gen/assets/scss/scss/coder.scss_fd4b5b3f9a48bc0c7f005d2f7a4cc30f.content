@@ -210,16 +210,42 @@ img.emoji {
     text-align: justify;
     text-justify: auto;
     hyphens: auto; }
+  .content article .toc {
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: .5em; }
+    .content article .toc ul {
+      list-style: decimal; }
+      .content article .toc ul li a {
+        color: #212121;
+        font-family: Lato, Helvetica, sans-serif; }
   .content .post .post-title {
     margin-bottom: .75em; }
-  .content .post .post-meta i {
-    text-align: center;
-    width: 1.6rem;
-    margin-left: 0;
-    margin-right: 0.5rem; }
-  .content .post .post-meta .date .posted-on {
-    margin-left: 0;
-    margin-right: 1.5rem; }
+  .content .post .post-meta {
+    border-bottom: 1px grey dashed;
+    padding-bottom: 1.5rem; }
+    .content .post .post-meta .tags a {
+      color: #212121; }
+      .content .post .post-meta .tags a:hover, .content .post .post-meta .tags a:focus {
+        color: #1565c0; }
+    .content .post .post-meta .categories a {
+      color: #212121; }
+      .content .post .post-meta .categories a:hover, .content .post .post-meta .categories a:focus {
+        color: #1565c0; }
+    .content .post .post-meta i {
+      text-align: center;
+      width: 1.6rem;
+      margin-left: 0;
+      margin-right: 0.5rem; }
+    .content .post .post-meta .date .posted-on {
+      margin-left: 0;
+      margin-right: 1.5rem; }
+  .content .post .see-also a {
+    color: #212121; }
+    .content .post .see-also a:hover, .content .post .see-also a:focus {
+      color: #1565c0; }
+  .content .post .see-also ul {
+    list-style: none; }
   .content figure {
     margin: 0;
     padding: 0; }
@@ -239,9 +265,15 @@ img.emoji {
 .list ul {
   margin: 3.2rem 0 3.2rem 0;
   list-style: none;
-  padding: 0; }
+  padding: 2rem; }
   .list ul li {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    border-bottom: 1px grey dashed;
+    padding: 1.2rem; }
+    .list ul li a {
+      color: #212121; }
+      .list ul li a:hover, .list ul li a:focus {
+        color: #1565c0; }
     @media only screen and (max-width: 768px) {
       .list ul li {
         margin: 1.6rem 0 1.6rem 0; } }
@@ -335,6 +367,21 @@ img.emoji {
   .navigation .navigation-title {
     letter-spacing: 0.1rem;
     text-transform: uppercase; }
+    .navigation .navigation-title .logo_cursor {
+      display: inline-block;
+      width: 1.25rem;
+      height: 2px;
+      background: #212121;
+      border-radius: 5px;
+      animation: cursor 1.25s infinite; }
+
+@keyframes cursor {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
   .navigation .navigation-list {
     float: right;
     list-style: none;

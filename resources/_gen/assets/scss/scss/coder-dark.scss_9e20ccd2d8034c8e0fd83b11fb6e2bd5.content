@@ -45,31 +45,80 @@ body.colorscheme-dark {
     body.colorscheme-auto table td, body.colorscheme-auto table th {
       border: 2px solid #dadada; } }
 
+body.colorscheme-dark .content .list ul li a {
+  color: #dadada; }
+  body.colorscheme-dark .content .list ul li a:hover, body.colorscheme-dark .content .list ul li a:focus {
+    color: #42a5f5; }
+
 body.colorscheme-dark .content .list ul li .title {
   color: #dadada; }
   body.colorscheme-dark .content .list ul li .title:hover, body.colorscheme-dark .content .list ul li .title:focus {
     color: #42a5f5; }
+
+body.colorscheme-dark .content .toc ul li a {
+  color: #dadada; }
+
+body.colorscheme-dark .content .post .post-meta .tags a {
+  color: #dadada; }
+  body.colorscheme-dark .content .post .post-meta .tags a:hover, body.colorscheme-dark .content .post .post-meta .tags a:focus {
+    color: #1565c0; }
+
+body.colorscheme-dark .content .post .post-meta .categories a {
+  color: #dadada; }
+  body.colorscheme-dark .content .post .post-meta .categories a:hover, body.colorscheme-dark .content .post .post-meta .categories a:focus {
+    color: #1565c0; }
+
+body.colorscheme-dark .content .post .see-also a {
+  color: #dadada; }
+  body.colorscheme-dark .content .post .see-also a:hover, body.colorscheme-dark .content .post .see-also a:focus {
+    color: #1565c0; }
 
 body.colorscheme-dark .content .centered .about ul li a {
   color: #dadada; }
   body.colorscheme-dark .content .centered .about ul li a:hover, body.colorscheme-dark .content .centered .about ul li a:focus {
     color: #42a5f5; }
 
+body.colorscheme-dark .content .avatar img {
+  filter: invert(80%); }
+
 @media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .content .list ul li a {
+    color: #dadada; }
+    body.colorscheme-auto .content .list ul li a:hover, body.colorscheme-auto .content .list ul li a:focus {
+      color: #42a5f5; }
   body.colorscheme-auto .content .list ul li .title {
     color: #dadada; }
     body.colorscheme-auto .content .list ul li .title:hover, body.colorscheme-auto .content .list ul li .title:focus {
       color: #42a5f5; }
+  body.colorscheme-auto .content .toc ul li a {
+    color: #dadada; }
+  body.colorscheme-auto .content .post .post-meta .tags a {
+    color: #dadada; }
+    body.colorscheme-auto .content .post .post-meta .tags a:hover, body.colorscheme-auto .content .post .post-meta .tags a:focus {
+      color: #1565c0; }
+  body.colorscheme-auto .content .post .post-meta .categories a {
+    color: #dadada; }
+    body.colorscheme-auto .content .post .post-meta .categories a:hover, body.colorscheme-auto .content .post .post-meta .categories a:focus {
+      color: #1565c0; }
+  body.colorscheme-auto .content .post .see-also a {
+    color: #dadada; }
+    body.colorscheme-auto .content .post .see-also a:hover, body.colorscheme-auto .content .post .see-also a:focus {
+      color: #1565c0; }
   body.colorscheme-auto .content .centered .about ul li a {
     color: #dadada; }
     body.colorscheme-auto .content .centered .about ul li a:hover, body.colorscheme-auto .content .centered .about ul li a:focus {
-      color: #42a5f5; } }
+      color: #42a5f5; }
+  body.colorscheme-auto .content .avatar img {
+    filter: invert(80%); } }
 
 body.colorscheme-dark .navigation a, body.colorscheme-dark .navigation span {
   color: #dadada; }
 
 body.colorscheme-dark .navigation a:hover, body.colorscheme-dark .navigation a:focus {
   color: #42a5f5; }
+
+body.colorscheme-dark .navigation .navigation-title .logo_cursor {
+  background: #dadada; }
 
 @media only screen and (max-width: 768px) {
   body.colorscheme-dark .navigation .navigation-list {
@@ -97,7 +146,9 @@ body.colorscheme-dark .navigation .menu-button i:hover, body.colorscheme-dark .n
   body.colorscheme-auto .navigation a, body.colorscheme-auto .navigation span {
     color: #dadada; }
   body.colorscheme-auto .navigation a:hover, body.colorscheme-auto .navigation a:focus {
-    color: #42a5f5; } }
+    color: #42a5f5; }
+  body.colorscheme-auto .navigation .navigation-title .logo_cursor {
+    background: #dadada; } }
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 768px) {
   body.colorscheme-auto .navigation .navigation-list {

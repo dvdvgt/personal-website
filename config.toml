@@ -1,12 +1,12 @@
 baseURL = "https://dvdvgt.github.io/"
 languageCode = "en-us"
-title = "> echo 'David's Stuff' ▁"
+title = "> echo 'David's Stuff'"
 
 theme = "hugo-coder"
 
 paginate = 20
 
-pygmentsstyle = "bw"
+pygmentsstyle = "pygments"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -73,6 +73,12 @@ pygmentscodefencesguesssyntax = true
   icon = "fa fa-gitea fa-2x"
   weight = 1
   url = "https://gitea.ddnss.de"
+
+#[[params.social]]
+#  name = "Mail"
+#  icon = "fa fa-envelope fa-2x"
+#  weight = 1
+#  url = "mailto:david.voigt1998@gmail.com"
 
 [[menu.main]]
   name = "Blog"
